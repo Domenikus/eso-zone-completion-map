@@ -19,7 +19,9 @@ Copy the `ZoneCompletionMap` folder into
 ## Usage
 
 - Settings: *Settings → Addons → Zone Completion Map*. Here you can change the
-  enabled state, tint color and opacity, and the categories that count.
+  enabled state, tint color and opacity, the categories that count, and **Invert tint**,
+  which tints the zones that are not yet complete instead. Zones without any tracked
+  activity stay untinted in both modes.
 - `/zcm debug`: with the Tamriel or Aurbis map open, lists every detected zone in chat
   and whether it counts as complete.
 - `/zcm raw [filter]`: diagnostic output of the raw map data per zone outline, including
